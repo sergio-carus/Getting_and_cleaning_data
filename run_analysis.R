@@ -23,7 +23,7 @@ download.file(fileUrl,destfile="./Getting_and_cleaning_data_project/Data.zip")
 unzip(zipfile="./Getting_and_cleaning_data_project/Data.zip",exdir="./Getting_and_cleaning_data_project/Data")
 
 #Assign the working directory
-setwd("C:/Users/TOSHIBA/Documents/Getting_and_cleaning_data_project/Data/UCI HAR Dataset")
+setwd("./Getting_and_cleaning_data_project/Data/UCI HAR Dataset")
 
 #Read the files
 activity_labels<-read.table("activity_labels.txt",header = FALSE)
